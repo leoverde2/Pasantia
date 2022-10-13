@@ -1,0 +1,21 @@
+.caption {
+  display: block;
+}
+
+a {
+   display: inline;
+   color: inherit;
+   text-decoration: inherit;
+   margin: 1%;
+}
+
+.container > a > img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
