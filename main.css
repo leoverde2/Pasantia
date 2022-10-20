@@ -2,9 +2,9 @@
   display: block;
 }
 
-a {
+.image-text {
    display: inline;
-   color: inherit;
+   color: black;
    text-decoration: inherit;
    margin: 1%;
 }
@@ -18,4 +18,34 @@ a {
   height: 200px;
   display: flex;
   justify-content: center;
+}
+
+#contacto {
+  position: absolute;
+  right: 60px;
+  bottom: 25%;
+  padding: 3px;
+  font-size: 24px;
+}
+
+#autor {
+  text-align: center;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: salmon;
 }
